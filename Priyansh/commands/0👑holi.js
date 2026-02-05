@@ -17,7 +17,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
 react.includes("Holi") ||  
 react.includes("holi")) {
     var msg = {
-        body: ``,attachment: fs.createReadStream(__dirname + `/noprefix/holiii.mp4`)
+        body: ``,attachment: fs.createReadStream(__dirname + `/noprefix/poll.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🌈", event.messageID, (err) => {}, true)
