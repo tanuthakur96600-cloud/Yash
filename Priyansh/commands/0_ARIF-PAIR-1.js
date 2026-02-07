@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "pair",
+  name: "pair3",
   version: "4.1.0",
   hasPermssion: 0,
   credits: "ARIF BABU ",
