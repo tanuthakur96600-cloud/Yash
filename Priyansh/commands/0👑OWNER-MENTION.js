@@ -2,14 +2,14 @@ module.exports.config = {
   name: "ADMIN",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHIVAM SAINI",
+  credits: "VIRAT SAINI",
   description: "THIS BOT WAS MADE BY MR SHIVAM SAINI",
   commandCategory: "ADMIN MENTION",
   usages: "",
   cooldowns: 1
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "61583230937795") {
+  if (event.senderID !== "61587386497501") {
 ];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
