@@ -4,7 +4,7 @@ module.exports.config = {
 	name: "groupinf",
 	version: "1.0.0", 
 	hasPermssion: 1,
-	credits: "SHIVAM SAINI",
+	credits: "VIRAT",
 	description: "THIS BOT WAS MADE BY MR ARIF BABU",
 	commandCategory: "GROUP INFORMETION", 
 	usages: "PREFIX", 
@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event, args }) {
 			var callback = () =>
 				api.sendMessage(
 					{
-						body: `🌺 GROUP NAME 𒁍 ${threadName}\n🌺 GROUP UID 𒁍 ${id}\n🌺 GROUP APPROVAL 𒁍 ${pd}\n🌺 GROUP EMOJI 𒁍 ${icon}\n🌺 TOTAL MEMBER 𒁍 ${threadMem}\n🌺 TOTAL MALE 𒁍 ${nam}\n🌺 TOTAL FEMALE 𒁍 ${nu}\n🌺TOTAL GROUP ADMIN 𒁍 ${qtv}\n🌺 TOTAL GROUP MESSAGES 𒁍 ${sl}\n\n════════════════════════ ❁\nBOT CREATER BY MR SHIVAM SAINI 🙂✌️`,
+						body: `🌺 GROUP NAME 𒁍 ${threadName}\n🌺 GROUP UID 𒁍 ${id}\n🌺 GROUP APPROVAL 𒁍 ${pd}\n🌺 GROUP EMOJI 𒁍 ${icon}\n🌺 TOTAL MEMBER 𒁍 ${threadMem}\n🌺 TOTAL MALE 𒁍 ${nam}\n🌺 TOTAL FEMALE 𒁍 ${nu}\n🌺TOTAL GROUP ADMIN 𒁍 ${qtv}\n🌺 TOTAL GROUP MESSAGES 𒁍 ${sl}\n\n════════════════════════ ❁\n𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐄𝐑 𝐁𝐘 𝐌𝐑 𝐕𝐈𝐑𝐀𝐓 𝐒𝐀𝐈𝐍𝐈🙂✌️`,
 						attachment: fs.createReadStream(__dirname + '/cache/1.png')
 					},
 					event.threadID,
