@@ -10,11 +10,8 @@ function checkCredits() {
 
 /* 🎞 Loading Frames */
 const frames = [
-  "🎵 ▰▱▱▱▱▱▱▱▱▱ 10%",
-  "🎶 ▰▰▱▱▱▱▱▱▱▱ 20%",
-  "🎧 ▰▰▰▰▱▱▱▱▱▱ 40%",
-  "💿 ▰▰▰▰▰▰▱▱▱▱ 60%",
-  "❤️ ▰▰▰▰▰▰▰▰▰▰ 100%"
+  
+  "💿music searching............."
 ];
 
 /* 🌐 API */
@@ -44,7 +41,7 @@ function getVideoID(url) {
 
 /* ⚙ CONFIG */
 module.exports.config = {
-  name: "song",
+  name: "music",
   version: "1.3.5",
   credits: "ARIF-BABU",
   hasPermssion: 0,
