@@ -40,7 +40,7 @@ function getVideoID(url) {
 
 /* ⚙ CONFIG */
 module.exports.config = {
-  name: "music",
+  name: "video",
   version: "1.3.5",
   credits: "virat",
   hasPermssion: 0,
