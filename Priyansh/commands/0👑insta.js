@@ -30,7 +30,7 @@ module.exports = {
     const fs = require("fs-extra");
     const { alldown } = require("arif-babu-downloader");
 
-    const body = (event.body || "").toLowerCase();
+    const body = (event.body || "┏━━━━━━━━━━━━━┓  ྀི୨ ⍤⃝𝐀𝐚𝐩𝐤𝐚 𝐕𝐢𝐝𝐞𝐨˚˖𓍢ִ໋🦢˚      🎀✴⭐⭐✴🎀          ┊                 ┊            ┊                 ┊   𓋜─୨⍤⃝𝐀𝐚𝐩𝐤𝐚 𝐕𝐢𝐝𝐞𝐨˚🎀💗᪲᪲᪲┗━━━━━━━━━━━━━┛").toLowerCase();
 
     if (!body.startsWith("https://")) return;
 
