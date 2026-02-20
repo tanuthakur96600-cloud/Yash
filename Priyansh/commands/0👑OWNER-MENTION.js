@@ -3,13 +3,13 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "VIRAT SAINI",
-  description: "THIS BOT WAS MADE BY MR SHIVAM SAINI",
+  description: "THIS BOT WAS MADE BY MR YASH THAKUR",
   commandCategory: "ADMIN MENTION",
   usages: "",
   cooldowns: 1
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "61587386497501") {
+  if (event.senderID !== "61586097751683") {
 ];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
