@@ -38,8 +38,8 @@ if ((event.body.toLowerCase() == "koi h kya") || (event.body.toLowerCase() == "k
        return api.sendMessage("Aww🥰 Yes My LoVe", threadID);
      };
 
-     if ((event.body.toLowerCase() == "Basant") || (event.body.toLowerCase() == "basanti")) {
-       return api.sendMessage("𝐊𝐡𝐨𝐨𝐧 𝐤𝐚𝐫 𝐝𝐮𝐧𝐠𝐢 𝐭𝐞𝐫𝐚", threadID);
+     if ((event.body.toLowerCase() == "mahadev") || (event.body.toLowerCase() == "mahadev")) {
+       return api.sendMessage("har har mahadev", threadID);
      };
 
 if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "😑")) {
@@ -55,7 +55,7 @@ if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "😑")
      };
 
         if ((event.body.toLowerCase() == "❤️") || (event.body.toLowerCase() == "💚")) {
-       return api.sendMessage("𝐒𝐀𝐁 𝐋𝐀𝐃𝐊𝐎 𝐊𝐊𝐀 𝐂𝐇𝐊𝐊𝐀𝐑 𝐇𝐀𝐀𝐈 𝐁𝐀𝐁𝐔 𝐁𝐇𝐀𝐈𝐘𝐀", threadID);
+       return api.sendMessage("𝐒𝐀𝐁 𝐋𝐀𝐃𝐊𝐎 𝐊𝐊𝐀 𝐂𝐇𝐊𝐊𝐀𝐑 𝐇𝐀𝐀𝐈 𝐁𝐀𝐁𝐔 𝐁𝐇𝐀𝐈𝐘𝐀 mne to riya sai shadi kar liya", threadID);
      };
 
         if ((event.body.toLowerCase() == "💔") || (event.body.toLowerCase() == "💔")) {
@@ -71,7 +71,7 @@ if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "😑")
      };
 
         if ((event.body.toLowerCase() == "🤣") || (event.body.toLowerCase() == "😂")) {
-       return api.sendMessage(" 𝐉𝐚𝐲𝐝𝐚 𝐦𝐚𝐭 𝐡𝐚𝐬 𝐝𝐚𝐭 𝐭𝐨𝐝 𝐝𝐮𝐧𝐠𝐢😏", threadID);
+       return api.sendMessage(" 𝐉𝐚𝐲𝐝𝐚 𝐦𝐚𝐭 𝐡𝐚𝐬 𝐝𝐚𝐭 𝐭𝐨𝐝 ke YASH KE POCKET ME RAKH DUNGI😏", threadID);
      };
 
         if ((event.body.toLowerCase() == "🙈") || (event.body.toLowerCase() == "🙊")) {
